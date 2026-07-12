@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.headerwrap {
+    padding: 10px 0;
+    background-color: #fff;
+    box-shadow: 0px 0px 0px 2px #ff0000;
+}
+
+.container {
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a {
+    display: inline-block
+}
+.logo a img {
+    height: 50px;
+}
+
+.headerMenu {
+
+}
+.headerMenu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.headerMenu ul li {
+    list-style: none;
+}
+.headerMenu ul li a {
+    padding: 10px 10px;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.headerMenu ul li a:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+
+
+.btn {
+    border: 0;
+    outline: 0;
+    display: inline-block;
+    padding: 14px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #ff0000;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #c90000;
+}
+.btn-seconday {
+    background-color: #00a3a3;
+    color: #fff;
+}
+.btn-seconday:hover {
+    background-color: #015353;
+}
+.btn-success {
+    background-color: #097200;
+    color: #fff;
+}
+.btn-success:hover {
+    background-color: #0f340b;
+}
