@@ -1,0 +1,11 @@
+:root {
+
+    --bs-blue: red;
+
+}
+
+.feturedBox .accordion-button {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
